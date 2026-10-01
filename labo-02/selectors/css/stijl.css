@@ -24,7 +24,7 @@ footer {
       (outline tekent een kader rond precies het element dat je raakte; de
       property zelf komt in hoofdstuk 3) */
 .rassen > li {
-  outline: 2px  solid crimson;
+  outline: 2px solid crimson;
 }
 
 /* 4. de paragraaf die onmiddellijk na elke h2 komt -> font-style: italic; */
@@ -43,11 +43,15 @@ h2 + p {
 }
 
 /* 7. de slogan en de intro tegelijk, in één regel -> color: darkslateblue; */
-
+.slogan , .intro {
+  color: darkslateblue;
+}
 
 /* 8. elke link in main wanneer de muis erover gaat OF wanneer ze focus heeft
       -> background-color: yellow; */
-
+main a:hover, main a:focus {
+  background-color: yellow;
+}
 
 
 /* ---- Lezen: welke elementen raken deze vijf selectors? Schrijf het antwoord
