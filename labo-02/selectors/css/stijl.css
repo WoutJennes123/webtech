@@ -39,7 +39,7 @@ h2 + p {
 
 /* 6. het laatste item in de lijst met openingsuren -> color: crimson; */
 .uren li:last-child {
-  background-color: crimson;
+  color: crimson;
 }
 
 /* 7. de slogan en de intro tegelijk, in één regel -> color: darkslateblue; */
