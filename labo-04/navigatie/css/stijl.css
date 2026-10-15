@@ -6,3 +6,36 @@
 }
 
 /* === your rules === */
+header {
+    display: flex;
+    background-color: #1f3a2e;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem;
+}
+a {
+    display: flex;
+    text-decoration: none;
+    color: #f3efe6;
+}
+.logo {
+    color: #e6b53c;
+    font-size: 1.5rem;
+    padding-inline: 2rem;
+    flex: 1;
+}
+.actief {
+    background-color: #e6b53c;
+    color: #1f3a2e;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding-inline: 1rem;
+    list-style: none;
+    flex: 1;
+}
