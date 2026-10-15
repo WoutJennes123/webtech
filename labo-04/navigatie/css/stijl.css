@@ -6,7 +6,7 @@
 }
 
 /* === your rules === */
-/*header {
+header {
     display: flex;
     background-color: #1f3a2e;
     justify-content: space-between;
@@ -39,8 +39,8 @@ ul {
     padding-inline: 1rem;
     list-style: none;
     flex: 1;
-}*/
-body {
+}
+/*body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header {
@@ -69,4 +69,4 @@ li a {
 .actief {
     background-color: #e6b53c;
     border-radius: 0.5rem;
-}
+}*/
