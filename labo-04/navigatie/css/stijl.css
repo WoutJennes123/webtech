@@ -6,7 +6,7 @@
 }
 
 /* === your rules === */
-header {
+/*header {
     display: flex;
     background-color: #1f3a2e;
     justify-content: space-between;
@@ -39,4 +39,34 @@ ul {
     padding-inline: 1rem;
     list-style: none;
     flex: 1;
+}*/
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color:  #1f3a2e;
+}
+.logo {
+    color: #e6b53c;
+    font-size: 1.5rem;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+a {
+    text-decoration: none;
+}
+li a {
+    color: #f3efe6;
+    padding: 0.75rem 1rem;
+}
+.actief {
+    background-color: #e6b53c;
+    border-radius: 0.5rem;
 }
