@@ -4,5 +4,49 @@
 :root {
 
 }
-
 /* === your rules === */
+header {
+    display: flex;
+    background-color: #1f3a2e;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem;
+}
+main {
+    
+}
+ul {
+
+}
+a {
+    display: flex;
+    text-decoration: none;
+    color: #f3efe6;
+}
+.logo {
+    color: #e6b53c;
+    font-size: 1.5rem;
+    padding-inline: 2rem;
+    flex: 1;
+}
+.actief {
+    color: #e6b53c;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    flex: 1;
+}
+footer {
+    display: flex;
+    background-color: #1f3a2e;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f3efe6;
+    padding: 0.5rem;
+}
