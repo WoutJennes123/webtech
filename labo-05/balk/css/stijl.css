@@ -6,3 +6,78 @@
 }
 
 /* === your rules === */
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.5rem;
+    padding-inline: 2rem;
+    background-color:  #000000;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 1.5rem;
+}
+nav a {
+    color: #9a9a9a;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+.logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+nav a.actief {
+    color: #ffffff;
+}
+nav a:hover, nav a:focus {
+  color: #ffffff;
+}
+body {
+    background-color: #f8f7f5;
+    color: #1a1a1a;
+    font-family: Verdana, sans-serif;
+    line-height: 1.6;
+}
+main {
+    max-width: 44rem;
+    padding: 2rem;
+    margin-inline: auto;
+}
+.intro {
+    color: #6b6b6b;
+}
+.inhoud {
+    text-align: left;
+    margin-bottom: 3rem;
+}
+.inhoud a {
+    color: #1a1a1a;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.75rem;
+}
+section {
+    margin-bottom: 3rem;
+}
+footer {
+    background-color: #000000;
+    color: #9a9a9a;
+    font-size: 0.875rem;
+    text-align: center;
+    padding: 1.5rem;
+}

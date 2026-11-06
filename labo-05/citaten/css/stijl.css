@@ -6,3 +6,46 @@
 }
 
 /* === your rules === */
+.citaten {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+.citaat {
+    flex: 1 1 18rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    line-height: 1.5;
+    border-left: 0.5rem solid currentColor;
+    padding: 0.5rem 1rem;
+}
+.citaat cite {
+    font-size: 0.875rem;
+    font-weight: normal;
+    font-style: normal;
+}
+.blauw {
+    color: #1e5bd8;
+}
+.roze {
+    color: #e88bb4;
+}
+.rood {
+    color: #c51f2a;
+}
+.oranje {
+    color: #d98c1a;
+}
+.groen {
+    color: #3b7a2a;
+}
+.salie {
+    color: #8fb89a;
+}
+.paars {
+    color: #7b4fa3;
+}
+.grijs {
+    color: #6b6b6b;
+}
