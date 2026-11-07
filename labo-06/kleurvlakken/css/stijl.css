@@ -6,5 +6,33 @@
 }
 
 /* === base: narrow screens first === */
-
+main {
+    display: grid;
+    min-height: 100svh;
+    grid-template-rows: repeat(4,1fr);
+}
+.rood{
+    background-color: #b90020;
+}
+.groen {
+    background-color: #349803;
+}
+.geel {
+    background-color: #ffcd00;
+}
+.blauw {
+    background-color: #006aff;
+}
 /* === media queries: below the base rules === */
+@media(min-width: 37.5rem ) {
+    main {
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 1fr;
+    }
+}
+@media(min-width: 800px) {
+    main {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+}
