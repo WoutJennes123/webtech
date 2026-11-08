@@ -6,3 +6,37 @@
 }
 
 /* === your rules === */
+main {
+    width: 90vh;
+    height: 90vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.75rem solid black;
+    background-color: #ec4b03;
+}
+div {
+    width: 70%;
+    height: 70%;
+    text-align: center;
+    background-color: #b99ec1;
+    border: 0.75rem solid black;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    overflow: hidden;
+}
+h1 {
+    width: 90%;
+    height: 90%;
+    background-color: #f9b700;
+    border: 0.75rem solid black;
+    margin-top: -7%;
+    margin-left: -7%;
+    font-size: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-top: 12rem;
+}
