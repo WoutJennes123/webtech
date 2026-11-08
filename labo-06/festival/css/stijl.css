@@ -6,5 +6,113 @@
 }
 
 /* === base: narrow screens first === */
+body {
+    background-color: #fff8ee;
+    color: #1a1a1a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 0rem 1rem;
+    padding: 2rem 0rem;
+}
+.logo {
+    font-size: 2rem;
+    color: #d6341c;
+    list-style: none;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+header li a {
+    display: block;
+    text-align: center;
+    padding: 0.75rem 1.25rem;
+    border: 2px solid #d6341c;
+    border-radius: 2rem;
+    color: #d6341c;
+    font-weight: bold;
+}
+nav a:hover,
+nav a:focus {
+    background-color: white;
+    color: darkred;
+}
+.actief {
+    background-color: #d6341c;
+    color: white;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.held {
+    background-color: #d6341c;
+    color: white;
+    padding: clamp(2rem, 8vw, 6rem) clamp(1rem, 5vw, 4rem);
+    width: 100%;
+}
+h1,
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    font-size: clamp(2rem, 5vw + 1rem, 4rem);
+    line-height: 1.1;
+}
+.programma {
+    display: flex;
+    flex-direction: column;
+    max-width: 44rem;
+    padding: clamp(2rem, 8vw, 6rem) clamp(1rem, 5vw, 4rem);
 
+}
+.programma li {
+    border-bottom: 1px solid #e3d9c8;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+time {
+    color: #d6341c;
+    min-width: 4rem;
+    font-weight: bold;
+}
+span {
+    color: #6b6b6b;
+    margin-left:auto;
+}
+footer {
+    color:#6b6b6b;
+    font-size: .875rem;
+    text-align: center;
+    padding-bottom: 1rem;}
 /* === media queries: below the base rules === */
+@media(min-width: 55rem) {
+    header ul {
+        flex-direction: row;
+    }
+}
+@media(min-width: 75rem) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-inline: 3rem;
+    }
+}

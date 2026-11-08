@@ -6,5 +6,7 @@
 }
 
 /* === base: narrow screens first === */
-
+main{
+    background-color: #fff8ee;
+}
 /* === media queries: below the base rules === */
