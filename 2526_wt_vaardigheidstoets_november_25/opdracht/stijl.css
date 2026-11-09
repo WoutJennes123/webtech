@@ -129,6 +129,9 @@ footer ul {
         text-align: center;
         z-index: 1;
     }
+    main h4 {
+        font-size: 5rem;
+    }
      /* Position */
      li:nth-child(4) p {
         position: absolute;
