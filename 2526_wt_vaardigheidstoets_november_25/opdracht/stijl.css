@@ -63,6 +63,9 @@ main h4 {
     font-size: 1.75rem;
     padding-top: 1rem;
 }
+li:nth-child(5) img {
+    display: none;
+}
 footer {
     color: white;
     padding: 1rem;
@@ -142,6 +145,7 @@ footer ul {
         margin-bottom: 1rem;
     }
     li:nth-child(5) img {
+        display: block;
         width: 55%;
         height: auto;
         position: absolute;
