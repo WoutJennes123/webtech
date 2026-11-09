@@ -25,3 +25,186 @@ body {
     background-color: black;}
 
 /* hier komt jouw css */
+header {
+    color: white;
+    gap: 1rem;
+    padding: 1rem;
+}
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+header nav ul {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+    padding: 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+main ul {
+    display: grid;
+    gap: 0.75rem;
+}
+main ul li {
+    min-height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main h2 {
+    font-size: 1.5rem;
+    line-height: 2.2;
+}
+main h4 {
+    font-size: 1.75rem;
+    padding-top: 1rem;
+}
+footer {
+    color: white;
+    padding: 1rem;
+}
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+@media(min-width: 1200px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+    }
+    main ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+    }
+    main ul li {
+        position: relative;
+        padding: 0.8rem;
+    }
+    main li:nth-child(2) {
+        grid-column: 2;
+        grid-row: 1 / 4;
+    }
+    main li:nth-child(4) {
+        grid-column: 1;
+        grid-row: 2 / 6;
+    }
+    main li:nth-child(5) {
+        grid-column: 3;
+        grid-row: 2 / 6;
+    }
+    main li:nth-child(6) {
+        grid-column: 2;
+        grid-row: 4 / 9;
+    }
+    main li:nth-child(7) {
+        grid-column: 1;
+        grid-row: 6 / 11;
+    }
+    main li:nth-child(8) {
+        grid-column: 3;
+        grid-row: 6 / 11;
+    }
+    main li:nth-child(9) {
+        grid-column: 2;
+        grid-row: 9 / 11;
+    }
+    main h2 {
+        position: absolute;
+        bottom: 1.4rem;
+        font-size: 2rem;
+        line-height: 1.5;
+        text-align: center;
+        z-index: 1;
+    }
+     /* Position */
+     li:nth-child(4) p {
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        background-color: darkred;
+        border-radius: 50%;
+        top: 30px;
+        right: 30px;
+    }
+
+    li:nth-child(4) h2 {
+        align-self: flex-end;
+        margin-bottom: 1rem;
+    }
+    li:nth-child(5) img {
+        width: 55%;
+        height: auto;
+        position: absolute;
+        top: 30px;
+    }
+
+    li:nth-child(5) h2 {
+        margin-top: auto;
+        padding-bottom: 0.5rem;
+    }
+    li:nth-child(6) p {
+        position: absolute;
+        background-color: red;
+    }
+
+    li:nth-child(6) p:nth-of-type(1) {
+        width: 52px;
+        height: 54px;
+        top: 30px;
+        left: 30px;
+    }
+
+    li:nth-child(6) p:nth-of-type(2) {
+        width: 120px;
+        height: 124px;
+        top: 100px;
+        left: 22%;
+    }
+
+    li:nth-child(6) p:nth-of-type(3) {
+        width: 45%;
+        height: 42%;
+        bottom: 30px;
+        right: 7%;
+    }
+
+    li:nth-child(6) h2 {
+        align-self: flex-end;
+        margin-bottom: 0.5rem;
+    }
+    li:nth-child(7) p {
+        position: absolute;
+        background-color: red;
+        width: 27%;
+        height: 87%;
+        bottom: 30px;
+    }
+
+    li:nth-child(7) p:nth-of-type(1) {
+        left: 6%;
+    }
+
+    li:nth-child(7) p:nth-of-type(2) {
+        left: 37%;
+    }
+
+    li:nth-child(7) p:nth-of-type(3) {
+        right: 6%;
+    }
+    main li:nth-child(8) {
+    background-image: url("boxmodel.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+}
