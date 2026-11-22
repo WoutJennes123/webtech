@@ -77,7 +77,7 @@ footer {
 }
 footer ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 1rem;
     text-align: center;
